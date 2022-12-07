@@ -3,7 +3,7 @@
     "hostname": "127.0.0.1",
     "port": 3042,
     "cors": {
-      "origin": "https://platformatic.cloud",
+      "origin": "https://platformatic.net",
       "methods": ["GET", "POST", "PUT", "DELETE"]
     }
     
