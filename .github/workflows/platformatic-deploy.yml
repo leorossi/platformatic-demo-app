@@ -13,7 +13,7 @@ jobs:
       - name: npm install --omit=dev
         run: npm install --omit=dev
       - name: Deploy project
-        uses: platformatic/onestep@v0.0.8
+        uses: uses: platformatic/onestep@8db3ae99b676de64db5ff2a3ea2aa4d65c025687
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           platformatic_api_key: ${{ secrets.PLATFORMATIC_API_KEY }}
